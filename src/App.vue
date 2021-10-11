@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <!-- <router-link to="/">Login</router-link> | -->
+    <!-- <router-link to="/register">Register</router-link> -->
+    <!-- <Login /> -->
   </div>
   <router-view />
 </template>
@@ -15,10 +16,6 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
-
 #nav a {
   font-weight: bold;
   color: #2c3e50;
@@ -28,3 +25,14 @@
   color: #42b983;
 }
 </style>
+
+<script>
+// import Login from "./views/Login.vue";
+
+export default {
+  name: "App",
+  components: {
+    // Login,
+  },
+};
+</script>
